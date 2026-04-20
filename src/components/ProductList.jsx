@@ -1,3 +1,4 @@
+import Link from "next/link";
 import FavoriteIcon from "./FavoriteIcon";
 
 const ProductList = () => {
@@ -24,7 +25,9 @@ const FetchProductList = async () => {
         <li key={product.id} className="bg-white  w-fit mb-5 rounded-lg shadow-md">
           <div className="relative">
             <FavoriteIcon />
-            <img className="rounded-t-lg" src={product.thumbnail} alt={product.title} width={300} height={400} />
+            <Link href={`/detail-product-page/${id}`}>
+              <img className="rounded-t-lg" src={product.thumbnail} alt={product.title} width={300} height={400} />
+            </Link>
           </div>
           <div className="pl-4 py-2 pr-4">
             <h3 className="text-gray-400 underline decoration-gray-400 underline-offset-2.5">{product.brand}</h3>
