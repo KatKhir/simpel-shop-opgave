@@ -25,7 +25,7 @@ const FetchProductList = async () => {
         <li key={product.id} className="bg-white  w-fit mb-5 rounded-lg shadow-md">
           <div className="relative">
             <FavoriteIcon />
-            <Link href={`/detail-product-page/${id}`}>
+            <Link href={`/detail-product-page/${product.id}`}>
               <img className="rounded-t-lg" src={product.thumbnail} alt={product.title} width={300} height={400} />
             </Link>
           </div>
