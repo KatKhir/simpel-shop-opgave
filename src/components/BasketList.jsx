@@ -9,7 +9,7 @@ const Basket = () => {
       </div>
       <ul className="justify-center items-start">
         <li className="flex gap-3 mb-3">
-          <img src="/img/farver.webp" alt="Billede af faver" width={70} height={80} />
+          <img src="/farver.webp" alt="Billede af faver" width={70} height={80} />
           <div className="flex flex-col justify-between w-full">
             <div>
               <h3 className="text-sm text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -23,7 +23,7 @@ const Basket = () => {
         </li>
         <hr className="border-0.5 border-gray-300 mb-3 mr-4" />
         <li className="flex gap-3 mb-3">
-          <img src="/img/farver.webp" alt="Billede af faver" width={70} height={80} />
+          <img src="/farver.webp" alt="Billede af faver" width={70} height={80} />
           <div className="flex flex-col justify-between w-full">
             <div>
               <h3 className="text-sm text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -37,7 +37,7 @@ const Basket = () => {
         </li>
         <hr className="border-0.5 border-gray-300 mb-3 mr-4" />
         <li className="flex gap-3 mb-3">
-          <img src="/img/farver.webp" alt="Billede af faver" width={70} height={80} />
+          <img src="/farver.webp" alt="Billede af faver" width={70} height={80} />
           <div className="flex flex-col justify-between w-full">
             <div>
               <h3 className="text-sm text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -51,7 +51,7 @@ const Basket = () => {
         </li>
         <hr className="border-0.5 border-gray-300 mb-3 mr-4" />
         <li className="flex gap-3 mb-3">
-          <img src="/img/farver.webp" alt="Billede af faver" width={70} height={80} />
+          <img src="/farver.webp" alt="Billede af faver" width={70} height={80} />
           <div className="flex flex-col justify-between w-full">
             <div>
               <h3 className="text-sm text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>

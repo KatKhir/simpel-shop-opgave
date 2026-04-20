@@ -3,12 +3,12 @@ import FavoriteIcon from "./FavoriteIcon";
 const ProductList = () => {
   return (
     <div className="flex justify-start ">
-      <div className="w-[70vw] bg-[#FAF6EA]  rounded-2xl p-4 mr-5 mt-5 mb-5 ml-10">
+      <div className="w-[70vw] h-[80vh] overflow-y-auto bg-[#FAF6EA] rounded-2xl p-4 mr-5 mt-5 mb-5 ml-10">
         <ul className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6 justify-center">
           <li className="bg-white  w-fit mb-5 rounded-lg shadow-md">
             <div className="relative">
               <FavoriteIcon />
-              <img className="rounded-t-lg" src="/img/farver.webp" alt="Billede af faver" width={300} height={400} />
+              <img className="rounded-t-lg" src="/farver.webp" alt="Billede af faver" width={300} height={400} />
             </div>
             <div className="pl-4 py-2 pr-4">
               <h3 className="text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -22,7 +22,7 @@ const ProductList = () => {
           <li className="bg-white  w-fit mb-5 rounded-lg shadow-md">
             <div className="relative">
               <FavoriteIcon />
-              <img className="rounded-t-lg" src="/img/farver.webp" alt="Billede af faver" width={300} height={400} />
+              <img className="rounded-t-lg" src="/farver.webp" alt="Billede af faver" width={300} height={400} />
             </div>
             <div className="pl-4 py-2 pr-4">
               <h3 className="text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -36,7 +36,7 @@ const ProductList = () => {
           <li className="bg-white  w-fit mb-5 rounded-lg shadow-md">
             <div className="relative">
               <FavoriteIcon />
-              <img className="rounded-t-lg" src="/img/farver.webp" alt="Billede af faver" width={300} height={400} />
+              <img className="rounded-t-lg" src="/farver.webp" alt="Billede af faver" width={300} height={400} />
             </div>
             <div className="pl-4 py-2 pr-4">
               <h3 className="text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -50,7 +50,7 @@ const ProductList = () => {
           <li className="bg-white  w-fit mb-5 rounded-lg shadow-md">
             <div className="relative">
               <FavoriteIcon />
-              <img className="rounded-t-lg" src="/img/farver.webp" alt="Billede af faver" width={300} height={400} />
+              <img className="rounded-t-lg" src="/farver.webp" alt="Billede af faver" width={300} height={400} />
             </div>
             <div className="pl-4 py-2 pr-4">
               <h3 className="text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -64,7 +64,7 @@ const ProductList = () => {
           <li className="bg-white  w-fit mb-5 rounded-lg shadow-md">
             <div className="relative">
               <FavoriteIcon />
-              <img className="rounded-t-lg" src="/img/farver.webp" alt="Billede af faver" width={300} height={400} />
+              <img className="rounded-t-lg" src="/farver.webp" alt="Billede af faver" width={300} height={400} />
             </div>
             <div className="pl-4 py-2 pr-4">
               <h3 className="text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -78,7 +78,7 @@ const ProductList = () => {
           <li className="bg-white  w-fit mb-5 rounded-lg shadow-md">
             <div className="relative">
               <FavoriteIcon />
-              <img className="rounded-t-lg" src="/img/farver.webp" alt="Billede af faver" width={300} height={400} />
+              <img className="rounded-t-lg" src="/farver.webp" alt="Billede af faver" width={300} height={400} />
             </div>
             <div className="pl-4 py-2 pr-4">
               <h3 className="text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
@@ -92,7 +92,7 @@ const ProductList = () => {
           <li className="bg-white  w-fit mb-5 rounded-lg shadow-md">
             <div className="relative">
               <FavoriteIcon />
-              <img className="rounded-t-lg" src="/img/farver.webp" alt="Billede af faver" width={300} height={400} />
+              <img className="rounded-t-lg" src="/farver.webp" alt="Billede af faver" width={300} height={400} />
             </div>
             <div className="pl-4 py-2 pr-4">
               <h3 className="text-gray-400 underline decoration-gray-400 underline-offset-2.5">MÆRKE</h3>
