@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="relative w-full h-full">
           <Image src="/hero_billede.png" fill alt="Hero" className="object-cover" />
 
-          <div className="absolute text-8xl flex-row p-18 m-0 gap-30">
+          <div className="absolute text-8xl flex-row p-18 m-0 gap-30 text-white">
             <p>Skab din stil.</p>
             <p className="ml-40 mt-5"> Lev din vibe.</p>
           </div>
