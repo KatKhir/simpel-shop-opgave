@@ -1,5 +1,4 @@
 import BasketList from "@/components/BasketList";
-import { FaRegHeart } from "react-icons/fa";
 import FavoriteIcon from "@/components/FavoriteIcon";
 import Link from "next/link";
 
