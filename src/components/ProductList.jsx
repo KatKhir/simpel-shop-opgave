@@ -1,5 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import FavoriteIcon from "./FavoriteIcon";
+import useBasket from "@/store/Basket";
+import { useEffect, useState } from "react";
 
 const ProductList = () => {
   return (
@@ -14,7 +18,6 @@ const ProductList = () => {
 };
 
 const FetchProductList = async () => {
-  "use server";
   const url = "https://dummyjson.com/products";
 
   try {
@@ -44,5 +47,4 @@ const FetchProductList = async () => {
     return <p>Der skete en fejl...</p>;
   }
 };
-
 export default ProductList;
