@@ -10,7 +10,7 @@ const Basket = () => {
   const removeFromCart = useBasket((state) => state.removeFromCart);
 
   return (
-    <div className="w-[30vw] bg-[#FAF6EA] h-fit rounded-2xl mr-10 mb-5 mt-5 pl-4 pb-4">
+    <div className="w-[23vw] bg-[#FAF6EA] h-fit rounded-2xl mr-10 mb-5 mt-5 pl-4 pb-4">
       <div className="flex justify-center">
         <FaShoppingCart className="w-8 h-8 mt-4 mb-10" />
       </div>
@@ -41,6 +41,9 @@ const Basket = () => {
               </li>
             ))}
           </ul>
+          <div className="flex justify-center pb-3">
+            <button className="text-xs font-semibold border border-black py-2 px-4 rounded-xl cursor-pointer transition-all duration-150 hover:scale-105 active:scale-100 ">GÅ TIL BETALING</button>
+          </div>
         </div>
       )}
     </div>

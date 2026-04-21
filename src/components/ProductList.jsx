@@ -26,7 +26,7 @@ const ProductList = () => {
 
   return (
     <div className="flex justify-start ">
-      <div className="w-[70vw] bg-[#FAF6EA] rounded-2xl p-4 mr-5 mt-5 mb-5 ml-10">
+      <div className=" bg-[#FAF6EA] rounded-2xl p-4 mr-5 mt-5 mb-5 ml-10">
         <ul className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6 justify-center">
           {products.map((product) => (
             <li key={product.id} className="bg-white w-fit mb-5 rounded-lg shadow-md">
