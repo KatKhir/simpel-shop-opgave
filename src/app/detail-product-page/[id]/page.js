@@ -41,7 +41,7 @@ export default async function DetailProductPage({ params }) {
               </div>
             </div>
           </div>
-          <div className="flex gap-4">
+          <div className="flex flex-col md:flex-row gap-4">
             {relatedProducts.map((p) => (
               <div key={p.id} className="bg-white  rounded-2xl p-4">
                 <img src={p.thumbnail} alt={p.title} width={150} height={150} />
