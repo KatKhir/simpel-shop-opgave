@@ -38,7 +38,7 @@ export default async function DetailProductPage({ params }) {
               <p className="text-black font-bold text-xl">{product.price} kr.</p>
               <div className="flex gap-4">
                 <button className="border rounded-lg py-2 px-4">Tilføj til kurv</button>
-                <FaRegHeart className="w-8 h-8" />
+                <FavoriteIcon id={product.id} product={product} />
               </div>
             </div>
           </div>
