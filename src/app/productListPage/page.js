@@ -10,7 +10,6 @@ export default function Home() {
   const [openBasket, setOpenBasket] = useState(false);
   return (
     <div>
-      <Header />
       <div className="flex justify-center mb-4">
         <FaShoppingCart className="w-10 h-10 [@media(min-width:1145px)]:hidden cursor-pointer" onClick={() => setOpenBasket(true)} />
       </div>
