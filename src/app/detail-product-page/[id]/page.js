@@ -8,7 +8,7 @@ async function getProduct(id) {
 async function getRelatedProducts(category, currentId) {
   const res = await fetch(`https://dummyjson.com/products/category/${category}`);
   const data = await res.json();
-  return data.products.filter((p) => p.id !== currentId).slice(0, 3);
+  return data.products.filter((p) => p.id !== currentId).slice(0, 4);
 }
 
 export default async function DetailProductPage({ params }) {
