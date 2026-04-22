@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex justify-center ">
+      <div className="flex justify-center mb-4">
         <FaShoppingCart className="w-10 h-10 [@media(min-width:1145px)]:hidden cursor-pointer" onClick={() => setOpenBasket(true)} />
       </div>
       <div className="flex items-start">
