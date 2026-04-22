@@ -5,8 +5,6 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div>
-      <Header />
-
       <div className="flex justify-center items-center h-[600px] px-15 relative">
         <div className="relative w-full h-full">
           <Image src="/hero_billede.png" fill alt="Hero" className="object-cover" />
