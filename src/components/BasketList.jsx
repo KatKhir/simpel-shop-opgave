@@ -18,7 +18,7 @@ const Basket = () => {
       </div>
 
       {cart.length === 0 ? (
-        <p className="text-center text-gray-400 font-inria">Kurven er tom</p>
+        <p className="text-center text-gray-400 font-inria">Basket is empty</p>
       ) : (
         <div>
           <ul>
