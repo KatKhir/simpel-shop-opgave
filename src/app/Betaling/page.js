@@ -11,14 +11,12 @@ const Betaling = () => {
 
   return (
     <div>
-      <Header />
-
       <div className="bg-[#D9D9D9] w-150 h-15 ml-[50px] mt-[60px] flex justify-start items-center p-[45px]">
-        <h1 className="text-[20px]">Din indkøbskurv ({cart.length} varer i kurven)</h1>
+        <h1 className="text-[20px]">Your basket ({cart.length} items in the basket)</h1>
       </div>
 
       {cart.length === 0 ? (
-        <p className="ml-[50px] mt-10 text-gray-400">Kurven er tom</p>
+        <p className="ml-[50px] mt-10 text-gray-400">Basket is empty</p>
       ) : (
         <>
           {cart.map((item) => (
@@ -30,15 +28,15 @@ const Betaling = () => {
               <div className="flex flex-col gap-[30px]">
                 <h4 className="text-black opacity-41 underline">{item.brand}</h4>
                 <p>{item.title}</p>
-                <p className="mt-[35px] font-bold">{item.price} KR</p>
+                <p className="mt-[35px] font-bold">${item.price}</p>
                 <IoTrashBinOutline onClick={() => removeFromCart(item.id)} className="cursor-pointer text-red-800 w-6 h-6" />
               </div>
             </div>
           ))}
 
           <div className="ml-[75px] mt-6 mb-10">
-            <p className="text-xl font-bold">Total: {total.toFixed(2)} KR</p>
-            <button className="mt-4 border border-black py-2 px-6 rounded-xl font-semibold hover:scale-105 transition-all duration-150">GENNEMFØR KØB</button>
+            <p className="text-xl font-bold">Total: ${total.toFixed(2)}</p>
+            <button className="mt-4 border border-black py-2 px-6 rounded-xl font-semibold hover:scale-105 transition-all duration-150">Complete your purchase</button>
           </div>
         </>
       )}
