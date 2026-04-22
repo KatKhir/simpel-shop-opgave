@@ -45,7 +45,7 @@ const Basket = () => {
           </ul>
           <div className="flex justify-center pb-3">
             <Link href="/Betaling">
-              <button className="text-xs font-semibold border font-inria border-black py-2 px-4 rounded-xl cursor-pointer transition-all duration-150 hover:scale-105 active:scale-100 ">GÅ TIL BETALING</button>
+              <button className="text-xs font-semibold border border-black py-2 px-4 rounded-xl cursor-pointer transition-all duration-150 hover:scale-105 active:scale-100 ">GO TO PAYMENT</button>
             </Link>
           </div>
         </div>

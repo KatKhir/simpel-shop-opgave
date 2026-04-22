@@ -13,12 +13,12 @@ const ProductSingle = ({ product }) => {
       <div>
         <Link className="flex gap-2 block my-2" href="/productListPage">
           <FaArrowLeftLong className="mt-1" />
-          Tilbage til produkter
+          Back to products
         </Link>
         <h3 className="mb-1 text-xl text-gray-400 underline decoration-gray-400 underline-offset-2.5">{product.brand}</h3>
         <h4 className="text-black pb-4">{product.title}</h4>
         <p className="mb-4 max-w-[50ch] text-black pb-4">{product.description}</p>
-        <p className="mb-3 text-black font-bold text-xl">{product.price}$</p>
+        <p className="mb-3 text-black font-bold text-xl">${product.price}</p>
         <div className="flex gap-4">
           <button onClick={() => addToCart(product)} className="cursor-pointer border border-black px-2 rounded-md">
             Add +
