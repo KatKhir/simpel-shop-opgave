@@ -10,7 +10,7 @@ const Header = () => {
           <Link href="/productListPage">PRODUCTS</Link>
         </li>
         <li>
-          <Link href="/Betaling">KURV</Link>
+          <Link href="/Betaling">BASKET</Link>
         </li>
       </ul>
     </nav>
