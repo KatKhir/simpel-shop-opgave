@@ -1,6 +1,7 @@
 "use client";
 import Header from "@/components/Header";
 import { IoTrashBinOutline } from "react-icons/io5";
+import useBasket from "@/store/Basket";
 
 const Betaling = () => {
   const cart = useBasket((state) => state.cart);
