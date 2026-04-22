@@ -25,13 +25,15 @@ const ProductList = () => {
   }, []);
 
   return (
-    <div className="flex justify-start ">
-      <div className=" bg-[#FAF6EA] rounded-2xl p-4 mr-5 mt-5 mb-5 ml-10">
+    <div className="flex-1 justify-start ">
+      <div className=" bg-[#FAF6EA] rounded-2xl p-4 mr-10 mt-5 mb-5 ml-10 h-[calc(100vh-100px)] overflow-y-auto">
         <ul className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6 justify-center">
           {products.map((product) => (
             <li key={product.id} className="bg-white w-fit mb-5 rounded-lg shadow-md">
               <div className="relative">
-                <FavoriteIcon id={product.id} product={product} />
+                <div className="absolute top-4 right-4">
+                  <FavoriteIcon id={product.id} product={product} />
+                </div>
 
                 <Link href={`/detail-product-page/${product.id}`}>
                   <img className="rounded-t-lg" src={product.thumbnail} alt={product.title} width={300} height={400} />
