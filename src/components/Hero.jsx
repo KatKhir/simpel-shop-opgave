@@ -14,8 +14,8 @@ const Hero = () => {
             <p className="ml-40 mt-5"> Live your vibe.</p>
           </div>
 
-          <div className="flex justify-center p-[150px] mt-[250px] ml-[500px]">
-            <Link href="/productListPage" className="font-inria absolute font-sans bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+          <div className="flex justify-center p-[150px] mt-[250px] ml-[500px] font-inria">
+            <Link href="/productListPage" className="absolute bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
               See our selected products
             </Link>
           </div>
