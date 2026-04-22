@@ -41,14 +41,14 @@ const ProductList = () => {
               </div>
 
               <div className="pl-4 py-2 pr-4">
-                <h3 className="text-gray-400  font-bold">{product.brand}</h3>
+                <h3 className="text-gray-400 font-inria  font-bold">{product.brand}</h3>
 
-                <h4 className="text-black pb-4">{product.title}</h4>
+                <h4 className="text-black font-inria pb-4">{product.title}</h4>
 
                 <div className="flex justify-between">
-                  <p className="text-black font-bold text-xl">{product.price} kr.</p>
+                  <p className="text-black font-inria font-bold text-xl">{product.price} $</p>
 
-                  <button onClick={() => addToCart(product)} className="cursor-pointer border border-black px-2 rounded-md">
+                  <button onClick={() => addToCart(product)} className="cursor-pointer font-inria border border-black px-2 rounded-md">
                     Add +
                   </button>
                 </div>

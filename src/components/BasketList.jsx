@@ -18,7 +18,7 @@ const Basket = () => {
       </div>
 
       {cart.length === 0 ? (
-        <p className="text-center text-gray-400">Kurven er tom</p>
+        <p className="text-center text-gray-400 font-inria">Kurven er tom</p>
       ) : (
         <div>
           <ul>
@@ -30,22 +30,22 @@ const Basket = () => {
 
                 <div className="flex flex-col w-full">
                   <div className="mb-3 mr-4">
-                    <h3 className="text-sm text-gray-400 font-bold">{item.brand}</h3>
-                    <h4 className="text-sm">{item.title}</h4>
+                    <h3 className=" font-inria text-sm text-gray-400 font-bold">{item.brand}</h3>
+                    <h4 className=" font-inria text-sm">{item.title}</h4>
                   </div>
 
                   <div className="flex justify-between items-end">
-                    <p className="font-bold text-lg"> {(item.price * item.quantity).toFixed(2)} kr.</p>
+                    <p className="font-bold font-inria text-lg"> {(item.price * item.quantity).toFixed(2)} $</p>
                     <IoTrashBinOutline onClick={() => (item.quantity === 1 ? removeFromCart(item.id) : decreaseQuantity(item.id))} className="cursor-pointer mr-4 text-red-800" width={10} height={10} />
                   </div>
-                  {item.quantity > 1 && <span className=" text-gray-500 text-[0.9rem] my-2 font-bold w-5 h-5 ">Antal: {item.quantity}</span>}
+                  {item.quantity > 1 && <span className="font-inria text-gray-500 text-[0.9rem] my-2 font-bold w-5 h-5 ">Antal: {item.quantity}</span>}
                 </div>
               </li>
             ))}
           </ul>
           <div className="flex justify-center pb-3">
             <Link href="/Betaling">
-              <button className="text-xs font-semibold border border-black py-2 px-4 rounded-xl cursor-pointer transition-all duration-150 hover:scale-105 active:scale-100 ">GÅ TIL BETALING</button>
+              <button className="text-xs font-semibold border font-inria border-black py-2 px-4 rounded-xl cursor-pointer transition-all duration-150 hover:scale-105 active:scale-100 ">GÅ TIL BETALING</button>
             </Link>
           </div>
         </div>
