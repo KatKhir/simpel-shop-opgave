@@ -46,7 +46,7 @@ const ProductList = () => {
                 <h4 className="text-black font-inria pb-4">{product.title}</h4>
 
                 <div className="flex justify-between">
-                  <p className="text-black font-inria font-bold text-xl">{product.price} $</p>
+                  <p className="text-black font-inria font-bold text-xl">${product.price}</p>
 
                   <button onClick={() => addToCart(product)} className="cursor-pointer font-inria border border-black px-2 rounded-md">
                     Add +

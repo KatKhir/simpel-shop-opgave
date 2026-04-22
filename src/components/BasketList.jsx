@@ -35,7 +35,7 @@ const Basket = () => {
                   </div>
 
                   <div className="flex justify-between items-end">
-                    <p className="font-bold font-inria text-lg"> {(item.price * item.quantity).toFixed(2)} $</p>
+                    <p className="font-bold font-inria text-lg">${(item.price * item.quantity).toFixed(2)}</p>
                     <IoTrashBinOutline onClick={() => (item.quantity === 1 ? removeFromCart(item.id) : decreaseQuantity(item.id))} className="cursor-pointer mr-4 text-red-800" width={10} height={10} />
                   </div>
                   {item.quantity > 1 && <span className="font-inria text-gray-500 text-[0.9rem] my-2 font-bold w-5 h-5 ">Antal: {item.quantity}</span>}
