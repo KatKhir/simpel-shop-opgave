@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700&display=swap");
 
 :root {
   --background: #ffffff;
@@ -11,7 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-inria: "Inria Serif", serif;
+  --font-inria: var(--font-inria);
 }
 
 @media (prefers-color-scheme: dark) {
