@@ -11,8 +11,6 @@ const Betaling = () => {
 
   return (
     <div>
-      <Header />
-
       <div className="bg-[#D9D9D9] w-150 h-15 ml-[50px] mt-[60px] flex justify-start items-center p-[45px]">
         <h1 className="text-[20px]">Your basket ({cart.length} items in the basket)</h1>
       </div>
